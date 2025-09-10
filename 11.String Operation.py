@@ -1,0 +1,13 @@
+str=input("Enter a string: ")
+
+print("The length of the string is:", len(str))
+print("The string in uppercase is:", str.upper())   
+print("The string in lowercase is:", str.lower())
+print("The string with replaced spaces is:", str.replace(" ", "_"))
+print("The string split into words is:", str.split())
+print("The string reversed is:", str[::-1])
+print("The string with swapped case is:", str.swapcase())
+print("The string with title case is:", str.title())
+print("The string with capitalized first letter is:", str.capitalize())
+print("The string with counted occurrences of 'a':", str.count('a'))
+print("The string with found position of 'a':", str.find('a'))
